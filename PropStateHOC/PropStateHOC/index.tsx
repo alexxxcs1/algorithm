@@ -89,7 +89,6 @@ const Connect = (BaseComponent, filterFunction?, customShouldComponentUpdate?, i
             }
             componentCheckResult && (this.renderCount = this.renderCount + 1);
             return componentCheckResult;
-            // return index === 280
         }
         render() {
             return <BaseComponent {...(this.state._props || {})} />
